@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/cloud-print-connector/log"
-	"github.com/google/cloud-print-connector/notification"
+	"github.com/ucodgo/cloud-print-connector/log"
+	"github.com/ucodgo/cloud-print-connector/notification"
 )
 
 const (

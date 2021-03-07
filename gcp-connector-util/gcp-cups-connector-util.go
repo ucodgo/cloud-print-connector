@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/gcp"
-	"github.com/google/cloud-print-connector/lib"
+	"github.com/ucodgo/cloud-print-connector/cdd"
+	"github.com/ucodgo/cloud-print-connector/gcp"
+	"github.com/ucodgo/cloud-print-connector/lib"
 	"github.com/urfave/cli"
 )
 
@@ -107,8 +107,8 @@ var commonCommands = []*cli.Command{
 				Usage: "Role granted. user or manager",
 			},
 			&cli.BoolFlag{
-				Name:  "skip-notification",
-				Usage: "Skip sending email notice. Defaults to true",
+				Name:        "skip-notification",
+				Usage:       "Skip sending email notice. Defaults to true",
 				DefaultText: "1",
 			},
 			&cli.BoolFlag{
